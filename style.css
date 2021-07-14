@@ -213,7 +213,7 @@ footer p{
 
 
 /* <!------------ For Mobile Devices ------------ */
-@media only screen and (max-width:688px){
+@media only screen and (max-width:480px){
     .container{
         flex-direction: column;
         align-items: flex-start;
@@ -235,6 +235,19 @@ footer p{
     #main-image{
         width: 400px;
         height: 380px;
-    }   
-}
+    }
+    .players-blogs{
+        grid-template-columns: 1fr;
+    }
+    .all-matches{
+        flex-direction: column;
+        align-items: center;
+    }
+    .flexible-container .sponsored-logo{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    footer{
+        display: none;
+    }
 
