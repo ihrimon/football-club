@@ -31,6 +31,12 @@ body{
     width: 556px;
     height: 438px;
     margin-left: 100px;
+    animation: animate1 1.01s ease-out infinite alternate;
+}
+@keyframes animate1{
+    from{
+        transform: scale(1.10);
+    }
 }
 .link-button{
     text-decoration: none;
@@ -85,6 +91,9 @@ body{
     font-weight: 700px;
     text-align: center;
     margin-bottom: 30px;
+}
+.upcoming-matches span{
+    color: #e02c6d;
 }
 .all-matches{
     display: flex;
